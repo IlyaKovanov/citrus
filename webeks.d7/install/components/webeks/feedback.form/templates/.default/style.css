@@ -1,0 +1,19 @@
+.form__wrapper {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+#feedbackForm {
+    display: flex;
+    flex-direction: column;
+}
+#feedbackForm input, #feedbackForm textarea {
+    margin-bottom: 15px;
+    min-width: 600px;
+}
+#feedbackForm button {
+    width: fit-content;
+    align-self: center;
+}
